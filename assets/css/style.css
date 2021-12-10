@@ -1,0 +1,348 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+header{
+background-color:whitesmoke;
+display:flex;
+align-items: center;
+justify-content: space-between;
+height:14vh;
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+padding:20px 20px;
+position:sticky;
+z-index:1;
+top:0;
+left:0;
+
+}
+header .logo h1{
+
+font-weight:bold;
+color:blue;
+padding-left: 20px;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+
+}
+ul li{
+    margin-right: 10px;
+  
+
+}
+ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    padding:14px;
+    font-weight: bold;
+
+}
+ul li a:hover{
+background-color:lightgrey;
+border-radius: 4px;
+transition: 0.5s;
+}
+.burger-menu
+{
+    cursor:pointer;
+    background-color: transparent;
+    width:30px;
+    height:21px;
+    border:0;
+    font-size: 2rem;
+    display:none;
+    color:blue;
+    
+   
+}
+.hero
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+    margin-bottom:30px;
+    
+}
+.hero-img{
+    width:30.5rem;
+    height:30.5rem;
+
+}
+.bio
+{
+    width:30%;
+    padding: 20px;
+    margin-left:40px;
+    border-radius:5px;
+    box-shadow:0px 12px 15px 2px rgba(0, 0, 0, 0.1);
+}
+.bio h2{
+margin-bottom:0.5rem;
+text-decoration: underline;
+text-align: center;
+}
+.bio p{
+    line-height:1.7rem;
+    
+}
+.more-about
+{
+   width:80%;
+   background-color:#fcfcfc;
+   margin:auto;
+   border-radius:5px;
+   box-shadow:0px 12px 15px 2px rgba(0, 0, 0, 0.1);
+   padding:30px;
+    
+}
+.more-about h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom:5px;
+}
+.more-about p{
+    line-height:1.7rem;
+    padding:0.4rem;
+
+}
+.myskills{
+    max-width:68.75rem;
+    margin:auto;
+    margin-top:20px;
+    text-align: center;
+    
+}
+.myskills h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom:20px;
+}
+.myskills img{
+    padding:20px;
+    margin:15px;
+    width:11.875rem;
+    height:11.25rem;
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px#a17a69;
+    
+}
+.Projects
+{
+    background-color: whitesmoke;
+    margin-top:2rem;
+    padding:32px 0;
+    
+}
+.Projects h2{
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    text-align:center;
+}
+.project-pic
+{
+    width:65%;
+    height:60%;
+}
+.maincontainer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.project-title
+{
+    margin-bottom:5px;
+}
+.project-container
+{
+    text-align:center;
+    width:21.875rem;
+    padding:20px;
+    margin:10px;
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px lightgrey;
+}
+.project-container p{
+    padding:0.4rem;
+
+}
+.project-details
+{
+    margin-bottom:5px;
+    text-align:justify;
+}
+
+
+.Contact
+{
+    margin-top:2rem;
+}
+.Contact h2{
+    text-align:center;
+    text-decoration: underline;
+    margin-bottom:1rem;
+}
+.contact-form-container
+{   max-width:40.75rem;
+    margin:  auto;
+    padding:0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px #a17a69;
+    
+    
+
+}
+.contact-form-container label{
+    line-height: 2.7em;
+    color:blue;
+    font-weight: bold;
+}
+.contact-form-container .input-field
+{
+width:100%;
+padding:8px;
+border-radius: 5px;
+
+font-size:0.875rem ;
+border:2px solid blue;
+
+
+}
+.contact-form-container textarea{
+    min-height:6.25rem;
+    font-size:14px;
+
+}
+.contact-form-container .input-field::placeholder
+{
+    color:blue;
+}
+.submit-btn1
+{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size:18px;
+    border:2px outset blue;
+    cursor:pointer;
+    margin-top:5px;
+}
+.submit-btn1:hover{
+    background-color: blue;
+}
+.socials
+{
+    display:flex;
+    flex-direction:column;
+    bottom:50%;
+    right:1%;
+    position:fixed;
+}
+.socicon
+{
+    width:2rem;
+    height:2rem;
+}
+footer{
+
+    text-align:center;
+    background-color:whitesmoke;
+    margin:20px 0 0;
+    padding:20px;
+}
+.scroll-up{
+   position: fixed;
+   right:0.5%;
+   bottom:3%;
+   cursor:pointer; 
+}
+.socicon up-arrow
+{
+    width:3rem;
+    height:3rem;
+} 
+@media screen and (max-width: 720px) 
+{
+nav 
+{
+    padding: 1.5rem 1rem;
+}
+nav ul {
+    position:fixed;
+    background-color: whitesmoke;
+    flex-direction: column;
+    top:86px;
+    left:10%;
+    width:80%;
+    text-align:center;
+    transform:translateX(120%);
+    transition: transform 0.5s ease-in;
+
+}
+nav ul li{
+    margin:15px;
+
+}
+ul li a:hover
+{
+    color:red;
+    text-decoration: underline;
+}
+.burger-menu{
+    display:block;
+}
+nav ul.show
+{
+   transform: translateX(0); 
+}
+.hero{
+   
+    flex-direction: column;
+    
+}
+.hero img {
+    height:35.5rem;
+    width:30rem;
+
+}
+.bio{
+    margin-top:2rem;
+    width:20.5rem;
+}
+.more-about
+{
+    margin-top:2rem;
+    padding:1rem 3.5rem;
+}
+.more-about p {
+text-align: justify;
+}
+.more-about h2{
+    text-align:center;
+}
+.myskills img
+{
+width:5.875rem;
+height:5.25rem;    
+}
+.maincontainer{
+    flex-direction: column;
+}
+.project-container
+{
+    width:20.875rem;
+}
+.contact-form-container{
+    max-width:23.75rem;
+}
+}
